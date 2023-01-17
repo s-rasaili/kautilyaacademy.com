@@ -1,0 +1,178 @@
+html {
+    scroll-behavior: smooth;
+  }
+.navbar-default {
+    background-color: #d10101;
+    border-color: #440101;
+    box-shadow: #440101 0px 2px 10px;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: rgb(255, 255, 255);
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+    color: black;
+    background-color: rgb(255, 204, 0);
+}
+
+.navbar-default .navbar-nav>.open>a,
+.navbar-default .navbar-nav>.open>a:focus,
+.navbar-default .navbar-nav>.open>a:hover {
+    color: black;
+    background-color: rgb(255, 204, 0);
+}
+
+.navbar-nav>li>.dropdown-menu {
+    margin-top: 0;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    background-color: #d10101;
+}
+
+.dropdown-menu>li>a {
+    display: block;
+    padding: 3px 20px;
+    clear: both;
+    font-weight: 400;
+    line-height: 1.42857143;
+    color: rgb(255, 255, 255);
+    white-space: nowrap;
+    background-color: #d10101;
+}
+
+.dropdown-menu>li>a:hover {
+    background-color: rgb(255, 204, 0);
+    color: black;
+}
+
+.glyphicon-chevron-left {
+    color: rgb(255, 204, 0);
+}
+
+.glyphicon-chevron-right {
+    color: rgb(255, 204, 0);
+}
+
+.bg-section-back {
+    background-color: rgb(239 239 239);
+}
+.bg-section-back-client {
+    background-image: url(assets/img/back2.jpg);
+    background-attachment: fixed;
+}
+
+/* .white-section-dash {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 300px;
+    margin-right: 300px;
+    border-top: 3px solid #d10101;
+}
+
+.red-section-dash {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 300px;
+    margin-right: 300px;
+    border-top: 3px solid #ffffff;
+}
+ */
+.footer-bs {
+    background: rgb(255, 28, 28);
+    background: radial-gradient(circle, rgba(255, 28, 28, 1) 0%, rgba(124, 0, 0, 1) 100%);
+    padding: 60px 40px;
+    color: rgba(255, 255, 255, 1.00);
+    margin-bottom: 20px;
+    border-bottom-right-radius: 6px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 6px;
+}
+.footer-ns div a{
+        color: #ffffff;
+        text-decoration: none;
+}
+.footer-ns div a:hover{
+    color: rgb(255, 204, 0);
+    text-decoration: none;
+}
+.btn-yellow{
+    background-color: rgb(255, 204, 0);
+}
+.btn-yellow:hover{
+    background-color: rgb(119, 81, 0);
+    color:white;
+}
+.bg-section-img{
+    background-image: url(/assets/img/back1.jpg);
+    background-attachment: fixed;
+}
+.text-white-a{
+    color: white;
+    transition: 0.2s ease-in-out;
+}
+.text-white-a:hover{
+    color: rgb(255, 204, 0);
+    text-decoration: none;
+    font-size: 20px;
+}
+.red-section-dash{
+    border: #ffffff 1px solid;
+    margin-right: 300px;
+    margin-left:300px;
+}
+.white-section-dash{
+    border: rgb(255, 28, 28) 1px solid;
+    margin-right: 300px;
+    margin-left:300px;
+}
+.p-margin-line-height-font{
+    margin: 0 -1 -1px;
+    line-height: 34px;
+    font-family: 'Anek Devanagari', sans-serif;
+    font-size: 20px;
+}
+.p-margin-line-height-font-upsc{
+    margin: 0 -1 -1px;
+    line-height: 15px;
+    font-family: 'Anek Devanagari', sans-serif;
+    font-size: 15px;
+}
+.p-margin-line-height-font-mppsc{
+    margin: 0 -1 -1px;
+    line-height: 25px;
+    font-family: 'Anek Devanagari', sans-serif;
+    font-size: 20px;
+}
+.p-margin-line-height-font-SSC{
+    margin: 0 -1 -1px;
+    line-height: 20px;
+    font-family: 'Anek Devanagari', sans-serif;
+    font-size: 15px;
+}
+.p-font{
+    font-family: 'Anek Devanagari', sans-serif;
+    font-size: 18px;
+}
+.p-font-fot{
+    font-family: 'Anek Devanagari', sans-serif;
+    font-size: 15px;
+}
+.p-font-fot-link{
+    font-family: 'Anek Devanagari', sans-serif;
+    font-size: 20px;
+}
+.menufont{
+    font-family: 'Oswald', sans-serif;
+    font-size: 18px;
+}
+.section-font{
+    font-family: 'Oswald', sans-serif;
+    font-size: 40px;
+}
+.zoom:hover{
+    transform: scale(1.1);
+}
+.about-margin{
+    margin-top: 50px;
+}

@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kautilya Academy Bhopal</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+    <link rel="stylesheet" href="assets/css/ourcss.css">
+    <link rel="stylesheet" href="assets/css/homecss.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anek+Devanagari:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Anek+Devanagari:wght@500&family=Oswald:wght@500&display=swap"
+        rel="stylesheet">
+
+
+    <script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
+
+
+    <link rel="icon" type="image/x-icon" href="/assets/img/favicon.ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body style="background-image: url(assets/img/seam.jpg);background-repeat: repeat;">
+
+
+    <!---======navbar starts=========------->
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#"><img src="assets/img/logo2.png" alt="logo" width="180"
+                        style="margin-top: -10px;"></a>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="home.html" class="menufont">Home</a></li>
+                    <li><a href="aboutus.html" class="menufont">About Us</a></li>
+
+                    <li class="dropdown">
+                        <a class="dropdown-toggle menufont" data-toggle="dropdown" href="#">Courses <span
+                                class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="upsc.html" class="menufont">UPSC</a></li>
+                            <li><a href="mppsc.html" class="menufont">MPPSC</a></li>
+                            <li><a href="upsc-mppsc.html" class="menufont">UPSC/MPPSC(U.G.)</a></li>
+                            <li><a href="ssc.html" class="menufont">SSC</a></li>
+                            <!-- <li><a href="#" class="menufont">MPSI</a></li> -->
+                        </ul>
+                    </li>
+                    <li><a href="faculties.html" class="menufont">Faculties</a></li>
+                    <li><a href="contact.html" class="menufont">Contact</a></li>
+                    <li><a href="index.html" class="menufont">Log Out</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!---======navbar ends=========------->
+
+    <!---======slider=========------->
+    <br>
+
+    <div class="container">
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+                <li data-target="#myCarousel" data-slide-to="2"></li>
+            </ol>
+
+            <!-- Wrapper for slides -->
+
+            <div class="carousel-inner">
+                <div class="item active">
+                    <img src="assets/img/slider1.jpg" alt="slider1">
+                </div>
+
+                <div class="item">
+                    <img src="assets/img/slider2.jpg" alt="slider2">
+                </div>
+
+                <div class="item">
+                    <img src="assets/img/slider3.jpg" alt="slider3">
+                </div>
+            </div>
+
+            <!-- Left and right controls -->
+            <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </div>
+    <!---======slider ends=========------->
+
+    <!-- Container 1 (Courses Section) -->
+    <div id="section1" class="container">
+        <div id="portfolio" class="container-fluid text-center bg-section-back">
+            <h2 class="section-font" style="color: #d10101;">OUR COURSES</h2>
+            <!-- <h4 style="color: #d10101;"></h4> -->
+            <hr class="white-section-dash">
+            <div class="row text-center slideanim">
+                <div class="col-sm-3">
+                    <div class="img-thumbnail img-responsive">
+                        <img src="assets/img/upsc.jpg" alt="UPSC" width="100%">
+                        <br><br>
+                        <p class="p-font"><strong>UPSC</strong></p>
+                        <p class="p-font">Central Govt. Exam</p>
+                        <a href="upsc.html"><button type="button" class="btn btn-yellow">Learn More</button></a>
+                    </div>
+                </div>
+
+                <div class="col-sm-3">
+                    <div class="img-thumbnail img-responsive">
+                        <img src="assets/img/mppsc.jpg" alt="UPSC" width="100%">
+                        <br><br>
+                        <p class="p-font"><strong>MPPSC</strong></p>
+                        <p class="p-font">State Govt. Exam</p>
+                        <a href="mppsc.html"><button type="button" class="btn btn-yellow">Learn More</button></a>
+                    </div>
+                </div>
+
+                <div class="col-sm-3">
+                    <div class="img-thumbnail img-responsive">
+                        <img src="assets/img/ssc.jpg" alt="UPSC" width="100%">
+                        <br><br>
+                        <p class="p-font"><strong>SSC</strong></p>
+                        <p class="p-font">Staff Selection Exam</p>
+                        <a href="upsc.html"><button type="button" class="btn btn-yellow">Learn More</button></a>
+                    </div>
+                </div>
+
+                <div class="col-sm-3">
+                    <div class="img-thumbnail img-responsive">
+                        <img src="assets/img/UPSC MPPSC UG.jpg" alt="UPSC" width="100%">
+                        <br><br>
+                        <p class="p-font"><strong>UPSC/MPPSC(U.G.)</strong></p>
+                        <p class="p-font">Complete UG Course</p>
+                        <a href="upsc-mppsc.html"><button type="button" class="btn btn-yellow">Learn More</button></a>
+                    </div>
+                </div>
+            </div><br>
+
+        </div>
+    </div>
+
+    <!-- Container 2 (Our Faculties Section) -->
+    <div class="container">
+        <div id="portfolio" class="container-fluid text-center"
+            style="background-image: url(assets/img/back1.jpg);background-attachment: fixed;">
+            <h2 class="section-font" style="color: #ffffff;">OUR FACULTIES</h2>
+            <!-- <br> -->
+            <!-- <h4 style="color: #ffffff;">What we have created</h4> -->
+            <hr class="red-section-dash">
+            <div class="row text-center slideanim">
+                <div class="col-sm-3">
+                    <div class="img-thumbnail img-responsive zoom">
+                        <img src="assets/img/ankitsir.jpg" alt="ankitsir" width="100%">
+                        <br><br>
+                        <p class="p-font"><strong>Ankit Yadav</strong></p>
+                        <p class="p-font">10 yrs of Exp.</p>
+                        <p></p>
+                        <!-- <button type="button" class="btn btn-yellow">Learn More</button> -->
+                    </div>
+                </div>
+
+                <div class="col-sm-3">
+                    <div class="img-thumbnail img-responsive zoom">
+                        <img src="assets/img/ravisir.jpg" alt="ravisir" width="100%">
+                        <br><br>
+                        <p class="p-font"><strong>Ravi Gopal Tiwari</strong></p>
+                        <p class="p-font">8 yrs of Exp.</p>
+                        <p></p>
+                        <!-- <button type="button" class="btn btn-yellow">Learn More</button> -->
+                    </div>
+                </div>
+
+                <div class="col-sm-3">
+                    <div class="img-thumbnail img-responsive zoom">
+                        <img src="assets/img/yogendrasir.jpg" alt="yogendrasir" width="100%">
+                        <br><br>
+                        <p class="p-font"><strong>Yogendra Solanki</strong></p>
+                        <p class="p-font">8 yrs of Exp.</p>
+                        <!-- <button type="button" class="btn btn-yellow">Learn More</button> -->
+                    </div>
+                </div>
+
+                <div class="col-sm-3">
+                    <div class="img-thumbnail img-responsive zoom">
+                        <img src="assets/img/meghamam.jpg" alt="meghamam" width="100%">
+                        <br><br>
+                        <p class="p-font"><strong>Megha Upadhyay</strong></p>
+                        <p class="p-font">8 yrs of Exp.</p>
+                        <!-- <button type="button" class="btn btn-yellow">Learn More</button> -->
+                    </div>
+                </div>
+            </div><br>
+
+        </div>
+    </div>
+
+
+    <!-- Container 3 (Director Message Section) -->
+    <div class="container">
+        <div id="portfolio" class="container-fluid text-center bg-section-back">
+            <h2 class="section-font" style="color: #d10101;">DIRECTOR'S MESSAGE</h2>
+            <!-- <h4 style="color: #d10101;"></h4> -->
+            <hr class="white-section-dash">
+            <div class="row text-center slideanim"
+                style="display: flex;justify-content: space-evenly;align-items: center;margin-left: 50px;margin-right: 50px;flex-wrap: wrap;">
+
+                <div class="col-md-9 col-sm-12">
+                    <!-- <div class="img-thumbnail img-responsive">
+                        <img src="assets/img/upsc.jpg" alt="UPSC" width="100%">
+                        <br><br>
+                        <p><strong>UPSC</strong></p>
+                        <p>Central Govt. Exam</p>
+                        <button type="button" class="btn btn-yellow">Learn More</button>
+                    </div> -->
+                    <p class="text-justify p-margin-line-height-font">"मैं राहुल रंगारे आप सभी के जैसा एक सामान्य
+                        व्यक्ति
+                        हूॅं जो एक छोटे से ग्राम रिधोरा तहसील सौंसर जिला छिन्दवाडा से निकलकर शहर आया और यही बस गया ।
+                        किन्तु गांव और अपने क्षेत्र से लगाव हमेषा बना रहा । मुझे दुसरों का सम्मान करने में बेहद खुषी
+                        मिलती है, इसी कारण हमेषा अपने सामाजिक दायित्वों को पूर्ण करने की कोषिष करता रहता हुॅं । मेरे
+                        मित्रों के साथ मिलकर सामाजिक क्षेत्रों में कई वर्षो से
+                        अनेकों सामाजिक एवं शैक्षणिक कार्य करते है ।
+                        हमारा हमेषा यही उद्देश्य होता है कि किस प्रकार हम लोगो की सेवा कर सके जनमानस में षिक्षा के महत्व
+                        को समझना, स्वच्छता, महिलाओं को आत्मनिर्भर बनाना, पिछडे एवं आदिवासीयों के हितो की रक्षा कर उनमें
+                        जागृति लाना इसी उद्देष को लेकर हमने माधोराव रंगारे वेलफेयर सोसायटी की स्थापना की है । समाज,
+                        गांव, क्षेत्र, प्रदेष एवं देष के लिये बहुत कुछ करना है आप सभी का साथ एवं सहयोग ही हमें कार्य
+                        करने
+                        की उर्जा प्रदान करेगा ।आप के सहयोग के लिये सभी का धन्यवाद, साधुवाद ।"</p>
+                </div>
+
+                <div class="col-md-3 col-sm-12">
+                    <div class="img-thumbnail img-responsive">
+                        <img src="assets/img/rahulsir.jpg" alt="rahulsir" width="100%">
+                        <br><br>
+                        <p class="p-font"><strong>RAHUL RANGARE</strong></p>
+                        <p class="p-font">DIRECTOR</p>
+                        <P class="p-font">Kautilya Academy</P>
+                        <P class="p-font">Bhopal & Chhindwara Branch</P>
+                        <!-- <button type="button" class="btn btn-yellow">Learn More</button> -->
+                    </div>
+                </div>
+
+                <!-- <div class="col-sm-3">
+                    <div class="img-thumbnail img-responsive">
+                        <img src="assets/img/upsc.jpg" alt="UPSC" width="100%">
+                        <br><br>
+                        <p><strong>UPSC</strong></p>
+                        <p>Central Govt. Exam</p>
+                        <button type="button" class="btn btn-yellow">Learn More</button>
+                    </div>
+                </div>
+
+                <div class="col-sm-3">
+                    <div class="img-thumbnail img-responsive">
+                        <img src="assets/img/mppsc.jpg" alt="UPSC" width="100%">
+                        <br><br>
+                        <p><strong>MPPSC</strong></p>
+                        <p>State Govt. Exam</p>
+                        <button type="button" class="btn btn-yellow">Learn More</button>
+                    </div>
+                </div>
+
+                <div class="col-sm-3">
+                    <div class="img-thumbnail img-responsive">
+                        <img src="assets/img/mppsc.jpg" alt="UPSC" width="100%">
+                        <br><br>
+                        <p><strong>SSC</strong></p>
+                        <p>Staff Selection Exam</p>
+                        <button type="button" class="btn btn-yellow">Learn More</button>
+                    </div>
+                </div>
+
+                <div class="col-sm-3">
+                    <div class="img-thumbnail img-responsive">
+                        <img src="assets/img/UPSC MPPSC UG.jpg" alt="UPSC" width="100%">
+                        <br><br>
+                        <p><strong>UPSC/MPPSC(U.G.)</strong></p>
+                        <p>Complete UG Course</p>
+                        <button type="button" class="btn btn-yellow">Learn More</button>
+                    </div>
+                </div> -->
+            </div><br>
+
+        </div>
+    </div>
+
+
+    <!-- our selections -->
+    <div class="container">
+        <div class="container-fluid text-center bg-section-back-client"
+            style="background-image: url(assets/img/back2.jpg);background-attachment: fixed;">
+            <h2 class="text-center text-white-client">OUR ACHIVERS</h2>
+            <hr class="red-section-dash"><br>
+
+            <section class="customer-logos slider">
+                <div class="slide"><img src="assets/img/1.jpg"></div>
+                <div class="slide"><img src="assets/img/2.jpg"></div>
+                <div class="slide"><img src="assets/img/3.jpg"></div>
+                <div class="slide"><img src="assets/img/4.jpg"></div>
+                <div class="slide"><img src="assets/img/5.jpg"></div>
+                <div class="slide"><img src="assets/img/6.jpg"></div>
+                <div class="slide"><img src="assets/img/7.jpg"></div>
+                <div class="slide"><img src="assets/img/8.jpg"></div>
+                <div class="slide"><img src="assets/img/9.jpg"></div>
+                <div class="slide"><img src="assets/img/10.jpg"></div>
+                <div class="slide"><img src="assets/img/11.jpg"></div>
+                <div class="slide"><img src="assets/img/12.jpg"></div>
+                <div class="slide"><img src="assets/img/13.jpg"></div>
+                <div class="slide"><img src="assets/img/14.jpg"></div>
+                <div class="slide"><img src="assets/img/15.jpg"></div>
+                <div class="slide"><img src="assets/img/16.jpg"></div>
+                <div class="slide"><img src="assets/img/17.jpg"></div>
+
+            </section>
+            <br><br>
+        </div>
+    </div>
+
+
+    <!----------- Footer ------------>
+    <div class="container">
+        <footer class="footer-bs">
+            <br><br>
+            <div class="row">
+                <div class="col-md-3 footer-brand animated fadeInLeft">
+                    <img src="assets/img/logo2.png" alt="logo" width="180" style="margin-top: -10px;">
+                    <br><br>
+                    <p class="p-font-fot">Kautilya Academy is setting new milestones of success in competitive exams by
+                        imparting
+                        guidance through scientific training and quality preparation, it has become a synonym to
+                        success.</p>
+                    <p class="p-font-fot">© 2014 Kautilya Academy Bhopal, All rights reserved</p>
+                </div>
+                <div class="col-md-4 footer-nav animated fadeInUp">
+                    <h4 class="p-font-fot-link">Links —</h4>
+                    <div class="col-md-6">
+                        <ul class="pages">
+                            <li><a href="home.html" class="text-white-a">Home</a></li>
+                            <li><a href="aboutus.html" class="text-white-a">About Us</a></li>
+                            <li><a href="contact.html" class="text-white-a">Contact</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-6">
+                        <ul class="list">
+                            <li><a href="aboutus.html" class="text-white-a">About Us</a></li>
+                            <li><a href="contact.html" class="text-white-a">Contacts</a></li>
+                            <!-- <li><a href="home.html" class="text-white-a">Terms & Condition</a></li>
+                            <li><a href="home.html" class="text-white-a">Privacy Policy</a></li> -->
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-2 footer-social animated fadeInDown">
+                    <h4>Follow Us</h4>
+                    <ul>
+                        <li><a href="https://www.facebook.com/kautilyabpl" target="_blank"
+                                class="text-white-a">Facebook</a></li>
+                        <li><a href="https://www.youtube.com/@kautilyaacademybhopal" target="_blank"
+                                class="text-white-a">Youtube</a></li>
+                        <li><a href="https://www.instagram.com/kautilyaacademybhopal/" target="_blank"
+                                class="text-white-a">Instagram</a></li>
+                        <li><a href="https://t.me/kautilyaacademybpl" target="_blank" class="text-white-a">Telegram</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="col-md-3 footer-ns animated fadeInRight">
+                    <div style="padding: 5px;">
+                        <!-- <h4>Follow us on Social Media</h4> -->
+                        <h4>Visit Us Now !</h4>
+                        <!--<p>A rover wearing a fuzzy suit doesnt alarm the real penguins</p>
+						<p>-->
+
+                        <!-- <a href="https://www.facebook.com/kautilyabpl" target="_blank"><i
+                                class="fa-brands fa-square-facebook fa-2x"></i></a>
+                        <a href="https://www.instagram.com/kautilyaacademybhopal/" target="_blank"><i
+                                class="fa-brands fa-instagram fa-2x"></i></a>
+                        <a href="https://t.me/kautilyaacademybpl" target="_blank"><i
+                                class="fa-brands fa-telegram fa-2x"></i></a>
+                        <a href="https://www.youtube.com/@kautilyaacademybhopal" target="_blank"><i
+                                class="fa-brands fa-youtube fa-2x"></i></a> -->
+
+
+                        <iframe style="border:rgb(255, 204, 0) 2px solid;box-shadow: black 0px 5px 12px;"
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7332.999579640187!2d77.43075677499716!3d23.224893239403762!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x397c4242d85fc4bf%3A0x9763790b87aa56f5!2sKautilya%20Academy!5e0!3m2!1sen!2sin!4v1673934374133!5m2!1sen!2sin"
+                            width="200" height="200" style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+
+                    </div>
+                    </p>
+                </div>
+
+                <!--<div class="col-md-3 footer-ns animated fadeInRight">
+						<h4>Newsletter</h4>
+						<p>A rover wearing a fuzzy suit doesnt alarm the real penguins</p>
+						<p>
+						<div class="input-group">
+							<input type="text" class="form-control" placeholder="Search for...">
+							<span class="input-group-btn">
+								<button class="btn btn-default" type="button"><span
+										class="glyphicon glyphicon-envelope"></span></button>
+							</span>
+						</div> /input-group
+						</p>
+					</div>-->
+            </div>
+        </footer>
+    </div>
+
+</body>
+<script>
+    $(document).ready(function () {
+        $('.customer-logos').slick({
+            slidesToShow: 6,
+            slidesToScroll: 1,
+            autoplay: true,
+            autoplaySpeed: 1500,
+            arrows: false,
+            dots: false,
+            pauseOnHover: false,
+            responsive: [{
+                breakpoint: 768,
+                settings: {
+                    slidesToShow: 4
+                }
+            }, {
+                breakpoint: 520,
+                settings: {
+                    slidesToShow: 3
+                }
+            }]
+        });
+    });
+</script>
+
+</html>
